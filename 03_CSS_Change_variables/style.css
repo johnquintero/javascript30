@@ -1,0 +1,30 @@
+:root{
+    --spacing : 20px;
+    --base : rgb(255,150,50);
+    --blur : 10px;
+}
+body{
+    margin: 0, auto;
+    background-color: gray;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container div {
+    align-self: center;
+}
+
+span{
+    color: var(--base);
+}
+
+img{
+    background-color: var(--base);
+    padding: var(--spacing);
+    filter: blur(var(--blur));
+}
